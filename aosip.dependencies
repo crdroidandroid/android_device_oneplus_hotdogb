@@ -7,6 +7,7 @@
   {
     "repository"  : "anirudhgupta109/android_vendor_pixelgapps",
     "target_path" : "vendor/pixelgapps",
-    "remote"      : "gitlab"
+    "remote"      : "gitlab",
+    "clone-depth" : "1"
   }
 ]
