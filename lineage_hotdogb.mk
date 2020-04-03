@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/hotdogb/device.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit PixelGApps
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosip_hotdogb
+PRODUCT_NAME := lineage_hotdogb
 PRODUCT_DEVICE := hotdogb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7T
