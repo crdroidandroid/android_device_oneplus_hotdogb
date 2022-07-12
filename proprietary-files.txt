@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.29_OTA_0290_all_2108181607_d1c6a
+# All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.32_OTA_0320_all_2202112234_3f24a87f818973
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -128,18 +128,24 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libarcsoft_dualcam_bokeh_api.so
+vendor/lib64/libarcsoft_dualcam_refocus_left.so
+vendor/lib64/libarcsoft_dualcam_refocus_preview.so
+vendor/lib64/libarcsoft_dualcam_refocus_right.so
+vendor/lib64/libarcsoft_portrait_distortion_correction.so
 
 # Fingerprint
 vendor/lib/hw/goodix.fod.msmnile.so
 vendor/lib/fp_hal_extension.so
 vendor/lib/libgf_ud_hal.so
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/hw/goodix.fod.msmnile.so
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libarm_proxy_skel.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
+
+# ODM feature list
+odm/etc/odm_feature_list
 
 # Sensors
 vendor/etc/sensors/config/ak991x_0.json
