@@ -14,32 +14,21 @@ $(call inherit-product, device/oneplus/hotdogb/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit GApps
-$(call inherit-product-if-exists, vendor/gapps/basic/config.mk)
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hotdogb
 PRODUCT_DEVICE := hotdogb
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := HD1905
 PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MODEL := HD1901
+PRODUCT_BRAND := OnePlus
 
 PRODUCT_SYSTEM_NAME := OnePlus7T
 PRODUCT_SYSTEM_DEVICE := OnePlus7T
 
-PRODUCT_AAPT_CONFIG := xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-PRODUCT_CHARACTERISTICS := nosdcard
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
-# Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7T/OnePlus7T:11/RKQ1.201022.002/2108181508:user/release-keys"
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus7T \
-    PRODUCT_NAME=OnePlus7T \
-    PRIVATE_BUILD_DESC="OnePlus7T-user 11 RKQ1.201022.002 2108181508 release-keys"
-
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="OnePlus7T-user 12 SKQ1.211113.001 Q.202210112115 release-keys" \
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+BUILD_FINGERPRINT := OnePlus/OnePlus7T/OnePlus7T:12/SKQ1.211113.001/Q.202210112115:user/release-keys
