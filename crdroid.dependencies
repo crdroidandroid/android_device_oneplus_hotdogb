@@ -4,7 +4,7 @@
     "target_path": "device/oneplus/sm8150-common"
   },
   {
-    "repository": "frazerecho/proprietary_vendor_oneplus-hotdogb",
+    "repository": "frazerecho/proprietary_vendor_oneplus_hotdogb",
     "target_path": "vendor/oneplus/hotdogb"
   }
 ]
