@@ -8,6 +8,10 @@
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
+    <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+         relies on this value will not be sized correctly. -->
+    <item name="pixel_pitch" format="float" type="dimen">63.22</item>
+
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">48px</dimen>
 
@@ -19,8 +23,21 @@
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">70px</dimen>
+    
+    <!-- Margin to avoid in display fingerprint scanner -->
+    <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">937px</dimen>
+
+    <!--  Blur radius on status bar window and power menu  -->
+    <dimen name="max_window_blur_radius">48px</dimen>
+    
+    <!-- Tri-state UI -->
+    <dimen name="tri_state_down_dialog_position">563.0px</dimen>
+    <dimen name="tri_state_down_dialog_position_l">410.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position">436.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">410.0px</dimen>
+    <dimen name="tri_state_up_dialog_position">305.0px</dimen>
 
 </resources>
