@@ -21,17 +21,11 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">@dimen/status_bar_padding_end</dimen>
 
-    <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">70px</dimen>
-    
     <!-- Margin to avoid in display fingerprint scanner -->
     <dimen name="keyguard_indication_margin_bottom">15dp</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">937px</dimen>
-
-    <!--  Blur radius on status bar window and power menu  -->
-    <dimen name="max_window_blur_radius">48px</dimen>
     
     <!-- Tri-state UI -->
     <dimen name="tri_state_down_dialog_position">563.0px</dimen>
